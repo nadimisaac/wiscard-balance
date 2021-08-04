@@ -6,6 +6,7 @@ from bs4 import BeautifulSoup
 import time
 import PySimpleGUI as gui
 
+# NEED TO IMPROVE PAGE WAIT CODE AND EXCEPTION HANDLING
 
 init_layout = [[gui.Text('Please Enter Your UW NetID', size=(50, 3), key='message')],
                [gui.Text("Username:", size=(10, 1)), gui.Input(key='user')],
